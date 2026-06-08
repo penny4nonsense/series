@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\e200601\OneDrive - Southwest Airlines\projects\series\src\main\scala\series\vecm\VecmFit.scala:128:17: value eigenvaluesImaginary is not a member of breeze.linalg.eig.DenseEig[0m
+[0m[[0m[31merror[0m] [0m[0m      .zip(eigs.eigenvaluesImaginary.toArray)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\e200601\OneDrive - Southwest Airlines\projects\series\src\main\scala\series\vecm\VecmFit.scala:129:43: could not find implicit value for parameter op: breeze.linalg.operators.OpMulMatrix.Impl2[Any,Any,That][0m
+[0m[[0m[31merror[0m] [0m[0m      .map { case (re, im) => math.sqrt(re*re + im*im) }[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

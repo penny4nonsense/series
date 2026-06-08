@@ -1,0 +1,144 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 44 products, 44 sources, 6 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/test/scala/series/var/ImpulseResponseTest.scala, ${BASE}/src/test/scala/series/svar/HistoricalDecompositionTest.scala, ${BASE}/src/test/scala/series/kalman/LogLikelihoodAccumulatorTest.scala, ${BASE}/src/test/scala/series/smoothing/EtsTest.scala, ${BASE}/src/test/scala/series/vecm/VecmDiagnosticsTest.scala, ${BASE}/src/test/scala/series/filters/ChristianoFitzgeraldFilterTest.scala, ${BASE}/src/test/scala/series/filters/BaxterKingFilterTest.scala, ${BASE}/src/test/scala/series/stats/UnitRootTestsTest.scala, ${BASE}/src/test/scala/series/svar/SvarBootstrapTest.scala, ${BASE}/src/test/scala/series/decomposition/ClassicalDecompositionTest.scala, ${BASE}/src/test/scala/series/svar/LongRunIdentificationTest.scala, ${BASE}/src/test/scala/series/math/LyapunovSolverTest.scala, ${BASE}/src/test/scala/series/interpolation/LinearInterpolatorTest.scala, ${BASE}/src/test/scala/series/arima/SarimaModelTest.scala, ${BASE}/src/test/scala/series/stats/CointegrationTestsTest.scala, ${BASE}/src/test/scala/series/arima/ArimaForecasterTest.scala, ${BASE}/src/test/scala/series/filters/ButterworthFilterTest.scala, ${BASE}/src/test/scala/series/garch/GarchForecasterTest.scala, ${BASE}/src/test/scala/series/svar/SvarModelTest.scala, ${BASE}/src/test/scala/series/vecm/VecmForecasterTest.scala, ${BASE}/src/test/scala/series/decomposition/StlDecompositionTest.scala, ${BASE}/src/test/scala/series/var/GrangerCausalityTest.scala, ${BASE}/src/test/scala/series/kalman/KalmanFilterTest.scala, ${BASE}/src/test/scala/series/vecm/VecmModelTest.scala, ${BASE}/src/test/scala/series/arima/ArimaEstimatorTest.scala, ${BASE}/src/test/scala/series/rnn/GradientCheckTest.scala, ${BASE}/src/test/scala/series/arima/SarimaEstimatorTest.scala, ${BASE}/src/test/scala/series/stats/AutoCorrelationTest.scala, ${BASE}/src/test/scala/series/svar/SignRestrictionsTest.scala, ${BASE}/src/test/scala/series/var/VarLagSelectionTest.scala, ${BASE}/src/test/scala/series/kalman/DiffuseKalmanFilterTest.scala, ${BASE}/src/test/scala/series/arima/ArimaModelTest.scala, ${BASE}/src/test/scala/series/vecm/VecmIRFTest.scala, ${BASE}/src/test/scala/series/svar/ShortRunIdentificationTest.scala, ${BASE}/src/test/scala/series/filters/HpFilterTest.scala, ${BASE}/src/test/scala/series/garch/GarchDiagnosticsTest.scala, ${BASE}/src/test/scala/series/interpolation/SplineInterpolatorTest.scala, ${BASE}/src/test/scala/series/arima/SarimaForecasterTest.scala, ${BASE}/src/test/scala/series/garch/GarchModelTest.scala, ${BASE}/src/test/scala/series/var/VarModelTest.scala, ${BASE}/src/test/scala/series/arima/ArimaDiagnosticsTest.scala, ${BASE}/src/test/scala/series/var/VarForecasterTest.scala, ${BASE}/src/test/scala/series/rnn/RnnTest.scala, ${BASE}/src/test/scala/series/transform/DifferencingTest.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/test/scala/series/vecm/VecmForecasterTest.scala, ${BASE}/src/test/scala/series/var/ImpulseResponseTest.scala, ${BASE}/src/test/scala/series/garch/GarchForecasterTest.scala, ${BASE}/src/test/scala/series/var/VarForecasterTest.scala), unmodified = ...),Set(),Set(),API Changes: Set(NamesChange(series.vecm.VecmFit,ModifiedNames(changes = UsedName(forecast,[Default]))), NamesChange(series.var.VarForecaster,ModifiedNames(changes = UsedName(series;var;VarForecaster;init;,[Default]))), NamesChange(series.var.VarFit,ModifiedNames(changes = UsedName(forecast,[Default]))), NamesChange(series.vecm.VecmForecaster,ModifiedNames(changes = UsedName(series;vecm;VecmForecaster;init;,[Default]))), NamesChange(series.garch.GarchFit,ModifiedNames(changes = UsedName(forecast,[Default]))), NamesChange(series.garch.GarchForecaster,ModifiedNames(changes = UsedName(series;garch;GarchForecaster;init;,[Default])))))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe series.vecm.VecmFit has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(forecast,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) series.vecm.VecmFit: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNow invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) series.vecm.VecmFit.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of series.vecm.VecmModelTest. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of series.vecm.VecmForecasterTest: [forecast][0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of series.vecm.VecmIRFTest. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of series.vecm.VecmDiagnosticsTest. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe series.var.VarForecaster has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(series;var;VarForecaster;init;,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) series.var.VarForecaster: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNow invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) series.var.VarForecaster.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of series.var.VarForecasterTest: [series;var;VarForecaster;init;][0m
+[0m[[0m[0mdebug[0m] [0m[0mThe series.var.VarFit has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(forecast,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) series.var.VarFit: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNow invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) series.var.VarFit.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of series.svar.SvarBootstrapTest. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of series.var.VarForecasterTest: [forecast][0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of series.var.ImpulseResponseTest. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of series.svar.LongRunIdentificationTest. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of series.var.VarModelTest. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of series.svar.HistoricalDecompositionTest. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of series.svar.SignRestrictionsTest. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of series.svar.SvarModelTest. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of series.svar.ShortRunIdentificationTest. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of series.var.GrangerCausalityTest. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe series.vecm.VecmForecaster has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(series;vecm;VecmForecaster;init;,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) series.vecm.VecmForecaster: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNow invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) series.vecm.VecmForecaster.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of series.vecm.VecmForecasterTest: [series;vecm;VecmForecaster;init;][0m
+[0m[[0m[0mdebug[0m] [0m[0mThe series.garch.GarchFit has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(forecast,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) series.garch.GarchFit: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNow invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) series.garch.GarchFit.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of series.garch.GarchDiagnosticsTest. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of series.garch.GarchForecasterTest: [forecast][0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of series.garch.GarchModelTest. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe series.garch.GarchForecaster has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(series;garch;GarchForecaster;init;,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) series.garch.GarchForecaster: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNow invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) series.garch.GarchForecaster.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of series.garch.GarchForecasterTest: [series;garch;GarchForecaster;init;][0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/test/scala/series/vecm/VecmForecasterTest.scala, ${BASE}/src/test/scala/series/var/ImpulseResponseTest.scala, ${BASE}/src/test/scala/series/garch/GarchForecasterTest.scala, ${BASE}/src/test/scala/series/var/VarForecasterTest.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set(NamesChange(series.vecm.VecmFit,ModifiedNames(changes = UsedName(forecast,[Default]))), NamesChange(series.var.VarForecaster,ModifiedNames(changes = UsedName(series;var;VarForecaster;init;,[Default]))), NamesChange(series.var.VarFit,ModifiedNames(changes = UsedName(forecast,[Default]))), NamesChange(series.vecm.VecmForecaster,ModifiedNames(changes = UsedName(series;vecm;VecmForecaster;init;,[Default]))), NamesChange(series.garch.GarchFit,ModifiedNames(changes = UsedName(forecast,[Default]))), NamesChange(series.garch.GarchForecaster,ModifiedNames(changes = UsedName(series;garch;GarchForecaster;init;,[Default]))))[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(series.vecm.VecmForecasterTest, series.var.ImpulseResponseTest, series.garch.GarchForecasterTest, series.var.VarForecasterTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set(series.vecm.VecmForecasterTest, series.var.VarForecasterTest, series.garch.GarchForecasterTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(series.vecm.VecmForecasterTest, series.var.ImpulseResponseTest, series.garch.GarchForecasterTest, series.var.VarForecasterTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/test/scala/series/vecm/VecmForecasterTest.scala, ${BASE}/src/test/scala/series/var/ImpulseResponseTest.scala, ${BASE}/src/test/scala/series/garch/GarchForecasterTest.scala, ${BASE}/src/test/scala/series/var/VarForecasterTest.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: series.vecm.VecmForecasterTest, series.var.ImpulseResponseTest, series.garch.GarchForecasterTest, series.var.VarForecasterTest[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to C:\Users\e200601\OneDrive - Southwest Airlines\projects\series\target\scala-3.3.6\test-classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-sbt-bridge\3.3.6\scala3-sbt-bridge-3.3.6.jar.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 795bc7f6 for Scala Compiler version 3.3.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-feature[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-unchecked[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-source:3.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\e200601\OneDrive - Southwest Airlines\projects\series\target\scala-3.3.6\test-classes;C:\Users\e200601\OneDrive - Southwest Airlines\projects\series\target\scala-3.3.6\classes;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.3.6\scala3-library_3-3.3.6.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalanlp\breeze_3\2.1.0\breeze_3-2.1.0.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest_3\3.2.18\scalatest_3-3.2.18.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.16\scala-library-2.13.16.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalanlp\breeze-macros_3\2.1.0\breeze-macros_3-2.1.0.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\dev\ludovic\netlib\blas\3.0.1\blas-3.0.1.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\dev\ludovic\netlib\lapack\3.0.1\lapack-3.0.1.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\dev\ludovic\netlib\arpack\3.0.1\arpack-3.0.1.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\sourceforge\f2j\arpack_combined_all\0.1\arpack_combined_all-0.1.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\sf\opencsv\opencsv\2.3\opencsv-2.3.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\github\wendykierp\JTransforms\3.1\JTransforms-3.1.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-math3\3.5\commons-math3-3.5.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-collection-compat_3\2.7.0\scala-collection-compat_3-2.7.0.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\typelevel\spire_3\0.18.0\spire_3-0.18.0.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-core_3\3.2.18\scalatest-core_3-3.2.18.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-featurespec_3\3.2.18\scalatest-featurespec_3-3.2.18.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-flatspec_3\3.2.18\scalatest-flatspec_3-3.2.18.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-freespec_3\3.2.18\scalatest-freespec_3-3.2.18.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-funsuite_3\3.2.18\scalatest-funsuite_3-3.2.18.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-funspec_3\3.2.18\scalatest-funspec_3-3.2.18.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-propspec_3\3.2.18\scalatest-propspec_3-3.2.18.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-refspec_3\3.2.18\scalatest-refspec_3-3.2.18.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-wordspec_3\3.2.18\scalatest-wordspec_3-3.2.18.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-diagrams_3\3.2.18\scalatest-diagrams_3-3.2.18.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-matchers-core_3\3.2.18\scalatest-matchers-core_3-3.2.18.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-shouldmatchers_3\3.2.18\scalatest-shouldmatchers_3-3.2.18.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-mustmatchers_3\3.2.18\scalatest-mustmatchers_3-3.2.18.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\pl\edu\icm\JLargeArrays\1.5\JLargeArrays-1.5.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\typelevel\spire-macros_3\0.18.0\spire-macros_3-0.18.0.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\typelevel\spire-platform_3\0.18.0\spire-platform_3-0.18.0.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\typelevel\spire-util_3\0.18.0\spire-util_3-0.18.0.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\typelevel\algebra_3\2.8.0\algebra_3-2.8.0.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalactic\scalactic_3\3.2.18\scalactic_3-3.2.18.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalatest\scalatest-compatible\3.2.18\scalatest-compatible-3.2.18.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_3\2.1.0\scala-xml_3-2.1.0.jar;C:\Users\e200601\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\typelevel\cats-kernel_3\2.8.0\cats-kernel_3-2.8.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 3.9350153 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from series.vecm.VecmForecasterTest...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: series.vecm.VecmForecasterTest[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(series.vecm.VecmForecasterTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(series.vecm.VecmForecasterTest,ModifiedNames(changes = UsedName(assertCompiles,[Default]), UsedName(buildForecaster,[Default]), UsedName(buildForecaster$default$1,[Default]), UsedName(buildFit$default$1,[Default]), UsedName(buildFit,[Default]), UsedName(assertTypeError,[Default]), UsedName(assertDoesNotCompile,[Default]))) invalidates 1 classes due to The series.vecm.VecmForecasterTest has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(assertCompiles,[Default]), UsedName(buildForecaster,[Default]), UsedName(buildForecaster$default$1,[Default]), UsedName(buildFit$default$1,[Default]), UsedName(buildFit,[Default]), UsedName(assertTypeError,[Default]), UsedName(assertDoesNotCompile,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(series.vecm.VecmForecasterTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from series.var.ImpulseResponseTest...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: series.var.ImpulseResponseTest[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(series.var.ImpulseResponseTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(series.var.ImpulseResponseTest,ModifiedNames(changes = UsedName(assertTypeError,[Default]), UsedName(assertDoesNotCompile,[Default]), UsedName(assertCompiles,[Default]))) invalidates 1 classes due to The series.var.ImpulseResponseTest has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(assertTypeError,[Default]), UsedName(assertDoesNotCompile,[Default]), UsedName(assertCompiles,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(series.var.ImpulseResponseTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from series.garch.GarchForecasterTest...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: series.garch.GarchForecasterTest[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(series.garch.GarchForecasterTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(series.garch.GarchForecasterTest,ModifiedNames(changes = UsedName(assertCompiles,[Default]), UsedName(buildForecaster,[Default]), UsedName(buildForecaster$default$1,[Default]), UsedName(buildFit$default$1,[Default]), UsedName(buildFit,[Default]), UsedName(assertTypeError,[Default]), UsedName(assertDoesNotCompile,[Default]))) invalidates 1 classes due to The series.garch.GarchForecasterTest has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(assertCompiles,[Default]), UsedName(buildForecaster,[Default]), UsedName(buildForecaster$default$1,[Default]), UsedName(buildFit$default$1,[Default]), UsedName(buildFit,[Default]), UsedName(assertTypeError,[Default]), UsedName(assertDoesNotCompile,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(series.garch.GarchForecasterTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from series.var.VarForecasterTest...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: series.var.VarForecasterTest[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(series.var.VarForecasterTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(series.var.VarForecasterTest,ModifiedNames(changes = UsedName(assertCompiles,[Default]), UsedName(buildForecaster,[Default]), UsedName(buildForecaster$default$1,[Default]), UsedName(buildFit$default$1,[Default]), UsedName(buildFit,[Default]), UsedName(assertTypeError,[Default]), UsedName(assertDoesNotCompile,[Default]))) invalidates 1 classes due to The series.var.VarForecasterTest has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(assertCompiles,[Default]), UsedName(buildForecaster,[Default]), UsedName(buildForecaster$default$1,[Default]), UsedName(buildFit$default$1,[Default]), UsedName(buildFit,[Default]), UsedName(assertTypeError,[Default]), UsedName(assertDoesNotCompile,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(series.var.VarForecasterTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFinal step, transitive dependencies:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: series.vecm.VecmForecasterTest, series.var.ImpulseResponseTest, series.garch.GarchForecasterTest, series.var.VarForecasterTest[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated macros due to upstream dependencies change: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m

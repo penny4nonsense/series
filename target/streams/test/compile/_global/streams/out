@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\e200601\OneDrive - Southwest Airlines\projects\series\src\test\scala\series\rnn\RnnTest.scala:228:22: not found: value i[0m
+[0m[[0m[31merror[0m] [0m[0m      assert(fc.mean(i,j)  <= fc.upper(i,j) + 1e-8)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\e200601\OneDrive - Southwest Airlines\projects\series\src\test\scala\series\rnn\RnnTest.scala:228:24: not found: value j[0m
+[0m[[0m[31merror[0m] [0m[0m      assert(fc.mean(i,j)  <= fc.upper(i,j) + 1e-8)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\e200601\OneDrive - Southwest Airlines\projects\series\src\test\scala\series\rnn\RnnTest.scala:228:40: not found: value i[0m
+[0m[[0m[31merror[0m] [0m[0m      assert(fc.mean(i,j)  <= fc.upper(i,j) + 1e-8)[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\e200601\OneDrive - Southwest Airlines\projects\series\src\test\scala\series\rnn\RnnTest.scala:228:42: not found: value j[0m
+[0m[[0m[31merror[0m] [0m[0m      assert(fc.mean(i,j)  <= fc.upper(i,j) + 1e-8)[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

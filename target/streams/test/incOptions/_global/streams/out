@@ -1,0 +1,29 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\e200601\OneDrive - Southwest Airlines\projects\series\target\scala-3.3.6\test-classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VecmForecasterTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ImpulseResponseTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GarchForecasterTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VarForecasterTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VecmForecasterTest.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ImpulseResponseTest.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GarchForecasterTest.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VarForecasterTest.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VecmForecasterTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ImpulseResponseTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GarchForecasterTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VarForecasterTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VecmForecasterTest.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ImpulseResponseTest.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GarchForecasterTest.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VarForecasterTest.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VecmForecasterTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GarchForecasterTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ImpulseResponseTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VarForecasterTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VecmForecasterTest.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GarchForecasterTest.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ImpulseResponseTest.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	VarForecasterTest.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Users\e200601\OneDrive - Southwest Airlines\projects\series\target\scala-3.3.6\test-classes.bak[0m
