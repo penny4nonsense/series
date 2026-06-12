@@ -47,11 +47,11 @@ ThisBuild / pomIncludeRepository := { _ => false }
 // Central Portal publishing is built into sbt 1.11+. Uncomment this block
 // when ready to publish (and re-add sbt-pgp to project/plugins.sbt).
 //
-// ThisBuild / publishTo := {
-//   val centralSnapshots = "https://central.sonatype.com/repository/maven-snapshots/"
-//   if (isSnapshot.value) Some("central-snapshots" at centralSnapshots)
-//   else localStaging.value
-// }
+ThisBuild / publishTo := {
+  val centralSnapshots = "https://central.sonatype.com/repository/maven-snapshots/"
+  if (isSnapshot.value) Some("central-snapshots" at centralSnapshots)
+  else localStaging.value
+}
 
 // ── Build ────────────────────────────────────────────────────────────────────
 
