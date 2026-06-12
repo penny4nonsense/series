@@ -2,12 +2,14 @@
 
 A from-scratch time series library for Scala, built on [Breeze](https://github.com/scalanlp/breeze) with no other dependencies. `series` provides classical and modern time series methods with consistent APIs, exact statistical foundations, and a test for every component.
 
-[![Tests](https://img.shields.io/badge/tests-449%20passing-brightgreen)]()
+[![Tests](https://img.shields.io/badge/tests-452%20passing-brightgreen)]()
 [![Scala](https://img.shields.io/badge/scala-2.13%20%7C%203.3-red)]()
 
 ## Why another time series library?
 
-The JVM ecosystem has no time series library with the breadth of Python's statsmodels or R's `forecast`/`vars`/`rugarch`. `series` aims to fill that gap: a single coherent library covering everything from ARIMA to LSTMs, written from scratch with proper statistical foundations rather than wrapping existing tools. Every estimator is tested — including finite-difference gradient checks on the neural network backward passes.
+The JVM ecosystem has no time series library with the breadth of Python's statsmodels or R's `forecast`/`vars`/`rugarch`. `series` aims to fill that gap: a single coherent library of time series methods, written from scratch with proper statistical foundations rather than wrapping existing tools. Every estimator is tested — including finite-difference gradient checks on the neural network backward passes.
+
+The univariate models (ARIMA/SARIMA, ETS, GARCH) are the most mature and heavily exercised part of the library. The multivariate and structural tooling (VAR, SVAR, VECM) is newer and, while tested for correctness, has seen less real-world use — the `0.x` version line reflects that the API is not yet frozen.
 
 ## Installation
 
@@ -47,11 +49,18 @@ val fit       = estimator.fit(y)          // y: Array[Double]
 
 println(fit)                              // estimates, std errors, AIC/BIC
 
-val fc = new ArimaForecaster(model, fit).forecast(y, h = 10)
+// Forecast 10 steps — the fit remembers the data it was trained on
+val fc = fit.forecast(h = 10)
 println(fc)                               // mean, lower95, upper95 per step
 ```
 
 By default `fit` runs CSS for starting values, then exact MLE via the Kalman filter. Pass `cssOnly = true` for the fast approximate fit.
+
+To forecast against a *different* series than the one used for fitting (e.g. updated data with the same parameters), use the forecaster directly:
+
+```scala
+val fc = new ArimaForecaster(model, fit).forecast(newData, h = 10)
+```
 
 ### Automatic ETS
 
@@ -175,8 +184,8 @@ All inputs are normalized internally; forecasts are returned on the original sca
 
 - **No dependencies beyond Breeze.** Everything — optimization, linear algebra glue, statistical distributions — is built on Breeze primitives.
 - **Exact foundations.** ARIMA/SARIMA estimation uses the Kalman filter for exact MLE with diffuse initialization (Durbin-Koopman). VAR is exact OLS. VECM uses Johansen reduced-rank regression. The RNN gradients are verified against finite differences.
-- **Consistent APIs.** Models follow a `Model → fit → Fit → forecast` shape. Result types carry `toString` methods that print readable summaries.
-- **Tested.** 449 tests across both Scala versions, covering dimensional correctness, known analytical results, statistical recovery on simulated data, and gradient correctness.
+- **Consistent APIs.** Models follow a `Model → fit → Fit` shape, and result types carry `toString` methods that print readable summaries. Most fitted models — including ARIMA — forecast directly via `fit.forecast(h)`. (SARIMA currently uses an explicit `new SarimaForecaster(model, fit).forecast(y, h)`; unifying it is planned for a later release. ARIMA also exposes its explicit forecaster for forecasting against new data.)
+- **Tested.** 452 tests across both Scala versions, covering dimensional correctness, known analytical results, statistical recovery on simulated data, and gradient correctness.
 
 ## A note on the neural module
 

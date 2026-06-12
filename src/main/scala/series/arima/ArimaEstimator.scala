@@ -124,7 +124,9 @@ class ArimaEstimator(model: ArimaModel) {
       return ArimaFit(
         phi, theta, sigma2, ll, diffed.length,
         Array.fill(model.p + model.q + 1)(Double.NaN),
-        cssOnly = true
+        cssOnly = true,
+        model = model,
+        data = y
       )
     }
 
@@ -152,7 +154,7 @@ class ArimaEstimator(model: ArimaModel) {
     val ses = if (cssOnly) Array.fill(model.p + model.q + 1)(Double.NaN)
     else standardErrors(mleParams, obs)
 
-    ArimaFit(phi, theta, sigma2, ll, diffed.length, ses, cssOnly)
+    ArimaFit(phi, theta, sigma2, ll, diffed.length, ses, cssOnly, model, y)
   }
 
   private def difference(y: Array[Double], d: Int): Array[Double] =
@@ -167,7 +169,9 @@ case class ArimaFit(
                      logLik:  Double,
                      n:       Int,
                      se:      Array[Double],
-                     cssOnly: Boolean
+                     cssOnly: Boolean,
+                     model:   ArimaModel,
+                     data:    Array[Double]
                    ) {
   private val k = phi.length + theta.length + 1
 
@@ -176,6 +180,14 @@ case class ArimaFit(
   def bic:  Double = -2 * logLik + math.log(n) * k
 
   def sigma2SE: Double = sigma2 * se(phi.length + theta.length)
+
+  /**
+   * Produces h-step ahead forecasts with prediction intervals.
+   * Convenience wrapper over ArimaForecaster — the common entry point.
+   * Uses the data the model was fit on to seed the forecast.
+   */
+  def forecast(h: Int): ArimaForecast =
+    new ArimaForecaster(model, this).forecast(data, h)
 
   override def toString: String = {
     val params = phi ++ theta ++ Array(sigma2)

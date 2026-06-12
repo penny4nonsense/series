@@ -1,145 +1,144 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.rnn.GradientCheckTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.var.VarLagSelectionTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.decomposition.ClassicalDecompositionTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.svar.ShortRunIdentificationTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.var.ImpulseResponseTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.math.LyapunovSolverTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.arima.SarimaEstimatorTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.interpolation.SplineInterpolatorTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.vecm.VecmIRFTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.filters.HpFilterTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.decomposition.StlDecompositionTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.rnn.RnnTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.filters.ButterworthFilterTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.var.VarModelTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.kalman.KalmanFilterTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.stats.CointegrationTestsTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.stats.AutoCorrelationTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.vecm.VecmForecasterTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.smoothing.EtsTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.stats.UnitRootTestsTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.interpolation.LinearInterpolatorTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.svar.SvarBootstrapTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.var.VarForecasterTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.vecm.VecmDiagnosticsTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.transform.DifferencingTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.arima.ArimaEstimatorTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.filters.BaxterKingFilterTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.arima.ArimaModelTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.svar.SignRestrictionsTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.arima.ArimaForecasterTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.svar.HistoricalDecompositionTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.arima.SarimaForecasterTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.svar.SvarModelTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.kalman.DiffuseKalmanFilterTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.filters.ChristianoFitzgeraldFilterTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.garch.GarchDiagnosticsTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.svar.LongRunIdentificationTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.vecm.VecmModelTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mCointegrationTestsTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- EG statistic is finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- EG rejects null for cointegrated pair[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- EG fails to reject for non-cointegrated pair[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- EG recovers approximate beta[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- EG residuals have correct length[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- EG throws on unequal length series[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- EG toString contains key fields[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Johansen returns correct number of eigenvalues[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Johansen eigenvalues are in [0, 1][0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Johansen trace statistics are positive[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Johansen Array convenience wrapper works[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Johansen throws on invalid regime[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Johansen toString is readable[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Johansen larger eigenvalue first[0m[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.arima.SarimaModelTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.kalman.LogLikelihoodAccumulatorTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.garch.GarchForecasterTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.arima.ArimaDiagnosticsTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.garch.GarchModelTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.var.GrangerCausalityTest, org.scalatest.tools.Framework$$anon$1@2bfd1ee4, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mVarLagSelectionTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- returns criteria for all lags[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- selected lags are in valid range[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- BIC selects true lag for large sample[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- criteria values are finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- toString contains selected lags[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mImpulseResponseTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- orthogonal IRF returns correct horizon count[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- IRF at horizon 0 is Cholesky factor[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- orthogonal IRF decays to zero for stable VAR[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- generalized IRF returns correct horizon count[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- generalized IRF is finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- response helper returns correct length[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- FEVD proportions sum to 1 at each horizon[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- FEVD proportions are non-negative[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- FEVD own-shock proportion is large at horizon 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- IRF toString is readable[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- FEVD toString is readable[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mLyapunovSolverTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- solution satisfies P = F * P * F.t + Q[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- solution is symmetric[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- solution is positive definite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- scalar case matches analytical solution[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- converges for near-unit-root process[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mHpFilterTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- trend has correct length[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- cycle has correct length[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- trend + cycle = original[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- lambda=0 gives trend = original[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- large lambda gives near-linear trend[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- cycle mean is near zero[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- variance ratio is positive[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.arima.SarimaEstimatorTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.var.GrangerCausalityTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.garch.GarchForecasterTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.svar.LongRunIdentificationTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.var.VarModelTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.decomposition.StlDecompositionTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.stats.UnitRootTestsTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.kalman.KalmanFilterTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.vecm.VecmDiagnosticsTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.garch.GarchDiagnosticsTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.kalman.LogLikelihoodAccumulatorTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.svar.ShortRunIdentificationTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.rnn.RnnTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.vecm.VecmForecasterTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.interpolation.LinearInterpolatorTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.decomposition.ClassicalDecompositionTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.arima.ArimaForecasterTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.arima.ArimaEstimatorTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.arima.SarimaModelTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.rnn.GradientCheckTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.vecm.VecmIRFTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.var.ImpulseResponseTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.arima.SarimaForecasterTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.kalman.DiffuseKalmanFilterTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.svar.SignRestrictionsTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.garch.GarchModelTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.vecm.VecmModelTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.svar.SvarBootstrapTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.filters.ButterworthFilterTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.var.VarForecasterTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.interpolation.SplineInterpolatorTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.svar.SvarModelTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.filters.ChristianoFitzgeraldFilterTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.arima.ArimaDiagnosticsTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.arima.ArimaModelTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.filters.BaxterKingFilterTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.filters.HpFilterTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.svar.HistoricalDecompositionTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.stats.CointegrationTestsTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.smoothing.EtsTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.transform.DifferencingTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGrangerCausalityTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- F statistic is positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- p-value is in [0,1][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- y1 Granger-causes y2 in causal DGP[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- y2 does not Granger-cause y1 in causal DGP[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- testAll returns k x k matrix[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- diagonal of testAll is None[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- throws on same cause and effect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- causalityMatrix produces readable output[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- toString contains key fields[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.var.VarLagSelectionTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.stats.AutoCorrelationTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(series.math.LyapunovSolverTest, org.scalatest.tools.Framework$$anon$1@6707bdda, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mVecmDiagnosticsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Ljung-Box statistic is positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Ljung-Box p-value is in [0,1][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Ljung-Box does not reject for well-specified VECM[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Jarque-Bera statistic is positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Jarque-Bera p-value is in [0,1][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ARCH-LM returns one result per equation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ARCH-LM statistics are positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ARCH-LM p-values are in [0,1][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- persistence convergence is true for valid VECM[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- report contains all test names[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGarchDiagnosticsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Ljung-Box on residuals is finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Ljung-Box on squared residuals is finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ARCH-LM statistic is positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ARCH-LM p-value is in [0,1][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ARCH-LM does not reject for well-specified GARCH[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Ljung-Box squared does not reject for well-specified GARCH[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Jarque-Bera statistic is positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Jarque-Bera p-value is in [0,1][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- residual summary quartiles are ordered[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- report contains all test names[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mClassicalDecompositionTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- components have correct length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- additive: seasonal factors sum to zero[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- multiplicative: seasonal factors average to one[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- seasonal strength is positive for seasonal series[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- toString is readable[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mSplineInterpolatorTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- natural cubic interpolates at knots exactly[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- pchip interpolates at knots exactly[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- natural cubic is smooth between knots[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- pchip preserves monotonicity[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- returns NaN outside range when not extrapolating[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- extrapolates when requested[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- toString contains type[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mAutoCorrelationTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ACF returns correct number of lags[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ACF at lag 1 is approximately phi for AR(1)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ACF decays geometrically for AR(1)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ACF cuts off after lag 1 for MA(1)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ACF of white noise is near zero at all lags[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ACF values are in [-1, 1][0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ACF throws on maxLag >= series length[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- PACF returns correct number of lags[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- PACF at lag 1 equals ACF at lag 1[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- PACF cuts off after lag 1 for AR(1)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- PACF approximately equals phi at lag 1 for AR(1)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- PACF values are in [-1, 1][0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- PACF of white noise is near zero at all lags[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- confidence bound decreases with sample size[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- confidence bound is positive[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- significant ACF lags include lag 1 for MA(1)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- significant PACF lags include lag 1 for AR(1)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- suggestOrders suggests AR for AR(1) process[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- suggestOrders suggests MA for MA(1) process[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- suggestOrders returns white noise for iid series[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- OrderSuggestion toString is readable[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mUnitRootTestsTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ADF statistic is finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ADF rejects unit root for stationary AR(1)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ADF fails to reject for random walk[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ADF statistic is negative[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ADF works with all regimes[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ADF throws on invalid regime[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ADF toString contains key fields[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- PP statistic is finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- PP rejects unit root for stationary series[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- PP fails to reject for random walk[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- PP and ADF agree on stationary series[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- PP toString contains key fields[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- KPSS statistic is finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- KPSS fails to reject for stationary series[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- KPSS rejects for random walk[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- KPSS and ADF give consistent conclusions[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- KPSS works with trend regime[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- KPSS throws on invalid regime[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- KPSS toString contains key fields[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mArimaForecasterTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- forecast returns correct horizon length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- forecast variances are positive and increasing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- prediction intervals are correctly ordered[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- AR(1) forecasts decay toward zero for stationary process[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- random walk forecasts are flat[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- throws on non-positive horizon[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- toString produces readable table[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mVecmForecasterTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- forecast returns correct dimensions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- MSE matrices have correct dimensions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- forecast values are finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- MSE is non-decreasing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- cointegrating relationships are bounded for large horizon[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- interval half widths are positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- throws on non-positive horizon[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- forecaster can also be constructed directly from fit[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- toString contains cointegrating relationships[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLongRunIdentificationTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Blanchard-Quah long-run multiplier is lower triangular[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Blanchard-Quah IRFs have correct horizon count[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Blanchard-Quah IRFs are finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Blanchard-Quah sigma consistency[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- FEVD sums to 1 for Blanchard-Quah[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- identification string is correct[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- zero restrictions require k(k-1)/2 restrictions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- custom shock names appear in result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mShortRunIdentificationTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Cholesky B0inv is lower triangular[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Cholesky IRFs have correct horizon count[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Cholesky IRFs decay for stable VAR[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Cholesky sigma consistency[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Cholesky shocks have unit variance approximately[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- FEVD proportions sum to 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- zero restrictions require k(k-1)/2 restrictions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- zero restrictions result is finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- toString contains identification scheme[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- custom shock names appear in output[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mArimaEstimatorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- AR(1) CSS fit recovers approximate phi[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- AR(1) MLE fit recovers phi more accurately than CSS[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- MLE log likelihood is higher than CSS log likelihood[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- AIC is finite for fitted model[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ARIMA(0,1,0) fits random walk[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- toString produces readable output[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- standard errors are positive for MLE fit[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- standard errors are NaN for CSS fit[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- phi standard error is plausible for AR(1)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGarchForecasterTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- forecast returns correct horizon length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- variance forecasts are positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- volatility forecasts are positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- volatility is sqrt of variance[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- long horizon forecasts converge to unconditional variance[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- variance forecasts are finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- throws on non-positive horizon[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- unconditional variance is positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- forecaster can also be constructed directly from fit[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- toString produces readable table[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mGradientCheckTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Vanilla RNN gradient check (single layer, univariate)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Vanilla RNN gradient check (single layer, multivariate)[0m[0m
@@ -163,45 +162,43 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- remainder values are finite[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- robust flag is recorded[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- toString is readable[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mShortRunIdentificationTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Cholesky B0inv is lower triangular[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Cholesky IRFs have correct horizon count[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Cholesky IRFs decay for stable VAR[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Cholesky sigma consistency[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Cholesky shocks have unit variance approximately[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- FEVD proportions sum to 1[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- zero restrictions require k(k-1)/2 restrictions[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- zero restrictions result is finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- toString contains identification scheme[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- custom shock names appear in output[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mVecmForecasterTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- forecast returns correct dimensions[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- MSE matrices have correct dimensions[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- forecast values are finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- MSE is non-decreasing[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- cointegrating relationships are bounded for large horizon[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- interval half widths are positive[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- throws on non-positive horizon[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- forecaster can also be constructed directly from fit[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- toString contains cointegrating relationships[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mButterworthFilterTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- lowpass output has same length as input[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- highpass output has same length[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- bandpass output has same length[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- effective order is double one-sided order[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- lowpass attenuates high frequencies[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- filtered values are finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- toString is readable[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mVecmIRFTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- orthogonal IRF has correct horizon count[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- orthogonal IRF values are finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- generalized IRF has correct horizon count[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- cumulative IRF is finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- persistence profiles have correct dimensions[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- persistence profiles are positive[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- persistence profiles converge for cointegrated system[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- FEVD proportions sum to 1[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- throws on non-positive horizon[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mUnitRootTestsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ADF statistic is finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ADF rejects unit root for stationary AR(1)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ADF fails to reject for random walk[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ADF statistic is negative[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ADF works with all regimes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ADF throws on invalid regime[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ADF toString contains key fields[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- PP statistic is finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- PP rejects unit root for stationary series[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- PP fails to reject for random walk[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- PP and ADF agree on stationary series[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- PP toString contains key fields[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- KPSS statistic is finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- KPSS fails to reject for stationary series[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- KPSS rejects for random walk[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- KPSS and ADF give consistent conclusions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- KPSS works with trend regime[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- KPSS throws on invalid regime[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- KPSS toString contains key fields[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLinearInterpolatorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- interpolates missing values[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- does not modify known values[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- handles multiple consecutive missing values[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- interpolate at query points[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- returns NaN outside range without extrapolation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- extrapolates when requested[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSarimaModelTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- seasonal period must be greater than 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- SARIMA(1,0,0)(1,0,0)_12 has correct AR order[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- SARIMA(0,0,1)(0,0,1)_12 has correct MA order[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- AR polynomial expansion is correct for SAR(1)_4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- MA polynomial expansion is correct for SMA(1)_4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- cross terms in AR expansion are correct[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- state space matrices have correct dimensions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- initial state Pinf is nonzero for seasonal differencing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- throws on wrong coefficient lengths[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mVarModelTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- requires at least 2 series[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- requires positive lag order[0m[0m
@@ -216,154 +213,6 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- VAR(1) recovers approximate lag coefficients[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- standard errors are positive[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- toString contains key fields[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mClassicalDecompositionTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- components have correct length[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- additive: seasonal factors sum to zero[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- multiplicative: seasonal factors average to one[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- seasonal strength is positive for seasonal series[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- toString is readable[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mLinearInterpolatorTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- interpolates missing values[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- does not modify known values[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- handles multiple consecutive missing values[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- interpolate at query points[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- returns NaN outside range without extrapolation[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- extrapolates when requested[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mSvarBootstrapTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- bootstrap returns correct number of replications[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- confidence bands are ordered correctly[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- median IRF has correct length[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- bootstrap IRFs are finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- wild bootstrap also runs correctly[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Blanchard-Quah bootstrap runs correctly[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- toString contains key fields[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mVarForecasterTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- forecast returns correct dimensions[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- MSE matrices have correct dimensions[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- forecast values are finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- MSE matrices are positive definite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- MSE increases with horizon[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- interval half widths are positive[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- stationary VAR forecasts converge toward mean[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- throws on non-positive horizon[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- forecaster can also be constructed directly from fit[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- toString produces readable output[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mVecmDiagnosticsTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Ljung-Box statistic is positive[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Ljung-Box p-value is in [0,1][0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Ljung-Box does not reject for well-specified VECM[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Jarque-Bera statistic is positive[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Jarque-Bera p-value is in [0,1][0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ARCH-LM returns one result per equation[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ARCH-LM statistics are positive[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ARCH-LM p-values are in [0,1][0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- persistence convergence is true for valid VECM[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- report contains all test names[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mDifferencingTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- diff reduces length by d[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- diff d=1 computes first differences[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- diff d=2 computes second differences[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- undiff inverts diff d=1[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- undiff inverts diff d=2[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- diff d=0 is identity[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- seasonalDiff reduces length by s*D[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- seasonalDiff D=1 subtracts lag-s values[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- seasonalUndiff inverts seasonalDiff[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- seasonalUndiff inverts D=2[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- diffCombined round-trips[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- diffCombined returns correct length[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- fracDiff weight pi_0 is 1[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- fracDiff weights decay toward zero[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- fracDiff weights are negative for k>=1 when 0<d<1[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- fracDiff MacKinnon-Davidson and Hosking give same weights[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- fracDiff series has correct length[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- fracDiff d=0 gives identity[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- fracDiff d=1 approximates integer differencing[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- fracDiff result toString is readable[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Hosking toString shows method name[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mEtsTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ETS(A,N,N) name is correct[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ETS(M,Ad,M) name is correct[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- 15 admissible models for period=12[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- 6 non-seasonal admissible models[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- state dimension ANN = 1[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- state dimension AAN = 2[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- state dimension ANA with period 12 = 13[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ANN fit returns finite log-likelihood[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- AAN fit returns finite log-likelihood[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- alpha is in (0,1)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- sigma2 is positive[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- fitted values have correct length[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- residuals have correct length[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ANN with alpha=1 fitted values approximate naive forecast[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- forecast has correct length[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- forecast intervals are ordered[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- forecast values are finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- AutoEts selects a model[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- AutoEts returns multiple models[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- AutoEts best model has lowest AICc[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- AutoEts toString is readable[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- seasonal AutoEts fits seasonal model[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mBaxterKingFilterTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- symmetric output has correct length[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- asymmetric output has same length as input[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- weights sum to approximately zero[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- weights are symmetric[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- filtered values are finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- nDropped equals K[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- toString is readable[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mArimaModelTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- AR(1) state space has correct dimensions[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- AR(1) transition matrix has correct structure[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ARIMA(1,1,0) state dimension is correct[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ARIMA(1,1,1) state dimension is correct[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- MA(1) state space has correct G vector structure[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- initial state has correct Pinf for ARIMA(1,1,0)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- initial state Pstar is positive for stationary AR component[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- throws on wrong number of AR coefficients[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- throws on non-positive sigma2[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mKalmanFilterTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- predict increases uncertainty[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- update reduces uncertainty[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- filter converges toward true signal[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- run returns correct number of states[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mArimaEstimatorTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- AR(1) CSS fit recovers approximate phi[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- AR(1) MLE fit recovers phi more accurately than CSS[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- MLE log likelihood is higher than CSS log likelihood[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- AIC is finite for fitted model[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ARIMA(0,1,0) fits random walk[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- toString produces readable output[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- standard errors are positive for MLE fit[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- standard errors are NaN for CSS fit[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- phi standard error is plausible for AR(1)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mArimaForecasterTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- forecast returns correct horizon length[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- forecast variances are positive and increasing[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- prediction intervals are correctly ordered[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- AR(1) forecasts decay toward zero for stationary process[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- random walk forecasts are flat[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- throws on non-positive horizon[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- toString produces readable table[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mHistoricalDecompositionTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- contributions have correct dimensions[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- contributions are finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- variance shares are in [0, 1][0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- variance shares sum to 1 for each series[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- total contribution has correct length[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- toString contains variance shares[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mSignRestrictionsTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- sign must be +1 or -1[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- identify returns positive acceptance rate[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- all admissible IRFs satisfy restrictions[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- median IRF has correct length[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- IRF bands are ordered correctly[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- FEVD proportions sum to 1[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- acceptance rate is in (0, 1][0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- IRF distribution has correct dimensions[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- throws on empty restrictions[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- toString contains acceptance rate[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- custom shock names appear in output[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mRnnTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- small config has correct defaults[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- medium config has larger hiddenDim[0m[0m
@@ -393,14 +242,49 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- toString is readable[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- MAE loss training works[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Huber loss training works[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mSvarModelTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Cholesky factor is lower triangular[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Cholesky factor satisfies P*P' = Sigma[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- structural IRFs have correct dimensions[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- long run multiplier is finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- structural shocks have correct dimensions[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- verifySigma passes for Cholesky impact matrix[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- cumulative IRF has correct dimensions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mVecmIRFTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- orthogonal IRF has correct horizon count[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- orthogonal IRF values are finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- generalized IRF has correct horizon count[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- cumulative IRF is finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- persistence profiles have correct dimensions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- persistence profiles are positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- persistence profiles converge for cointegrated system[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- FEVD proportions sum to 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- throws on non-positive horizon[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mImpulseResponseTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- orthogonal IRF returns correct horizon count[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- IRF at horizon 0 is Cholesky factor[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- orthogonal IRF decays to zero for stable VAR[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- generalized IRF returns correct horizon count[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- generalized IRF is finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- response helper returns correct length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- FEVD proportions sum to 1 at each horizon[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- FEVD proportions are non-negative[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- FEVD own-shock proportion is large at horizon 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- IRF toString is readable[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- FEVD toString is readable[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSarimaForecasterTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- forecast returns correct horizon length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- forecast variances are positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- forecast variances are non-decreasing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- prediction intervals are correctly ordered[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- point forecasts are finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- seasonal random walk forecasts repeat last season[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- throws on series too short for differencing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- toString produces readable table[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mKalmanFilterTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- predict increases uncertainty[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- update reduces uncertainty[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- filter converges toward true signal[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- run returns correct number of states[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLogLikelihoodAccumulatorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- log likelihood is finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- css log likelihood is finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- log likelihood is negative[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- better fitting model has higher log likelihood[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- css is less negative than exact ll during diffuse phase[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- log likelihood increases with more observations from true model[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mDiffuseKalmanFilterTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- predict propagates both Pinf and Pstar[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Pinf collapses after sufficient observations[0m[0m
@@ -408,32 +292,35 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- filter converges toward true signal after diffuse phase[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- log likelihood contribution is finite after collapse[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- collapsed state matches standard Kalman filter[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mChristianoFitzgeraldFilterTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- symmetric output has same length as input[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- asymmetric output has same length as input[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- filtered values are finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- symmetric and asymmetric are correlated[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- toString is readable[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mGarchDiagnosticsTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Ljung-Box on residuals is finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Ljung-Box on squared residuals is finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ARCH-LM statistic is positive[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ARCH-LM p-value is in [0,1][0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ARCH-LM does not reject for well-specified GARCH[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Ljung-Box squared does not reject for well-specified GARCH[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Jarque-Bera statistic is positive[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Jarque-Bera p-value is in [0,1][0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- residual summary quartiles are ordered[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- report contains all test names[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mLongRunIdentificationTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Blanchard-Quah long-run multiplier is lower triangular[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Blanchard-Quah IRFs have correct horizon count[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Blanchard-Quah IRFs are finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Blanchard-Quah sigma consistency[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- FEVD sums to 1 for Blanchard-Quah[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- identification string is correct[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- zero restrictions require k(k-1)/2 restrictions[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- custom shock names appear in result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSignRestrictionsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- sign must be +1 or -1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- identify returns positive acceptance rate[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- all admissible IRFs satisfy restrictions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- median IRF has correct length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- IRF bands are ordered correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- FEVD proportions sum to 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- acceptance rate is in (0, 1][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- IRF distribution has correct dimensions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- throws on empty restrictions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- toString contains acceptance rate[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- custom shock names appear in output[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGarchModelTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- requires at least one of p or q positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ARCH(1) is valid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- GARCH(1,1) has correct nParams[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- conditional variances have correct length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- conditional variances are positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- log likelihood is finite for valid parameters[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- GARCH(1,1) fit recovers approximate omega[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- GARCH(1,1) fit recovers approximate alpha[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- GARCH(1,1) fit recovers approximate beta[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- persistence is less than 1 for stationary GARCH[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- unconditional variance is positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- standardized residuals have approximately unit variance[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- AIC BIC AICc are finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- standard errors are positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ARCH(1) fits correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- toString produces readable output[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mVecmModelTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- requires at least 2 series[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- requires positive lag order[0m[0m
@@ -452,34 +339,55 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- eigenvalues have correct count[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- eigenvalues are positive[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- toString contains key fields[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mSarimaModelTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- seasonal period must be greater than 1[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- SARIMA(1,0,0)(1,0,0)_12 has correct AR order[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- SARIMA(0,0,1)(0,0,1)_12 has correct MA order[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- AR polynomial expansion is correct for SAR(1)_4[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- MA polynomial expansion is correct for SMA(1)_4[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- cross terms in AR expansion are correct[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- state space matrices have correct dimensions[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- initial state Pinf is nonzero for seasonal differencing[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- throws on wrong coefficient lengths[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mLogLikelihoodAccumulatorTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- log likelihood is finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- css log likelihood is finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- log likelihood is negative[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- better fitting model has higher log likelihood[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- css is less negative than exact ll during diffuse phase[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- log likelihood increases with more observations from true model[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mGarchForecasterTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- forecast returns correct horizon length[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- variance forecasts are positive[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- volatility forecasts are positive[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- volatility is sqrt of variance[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- long horizon forecasts converge to unconditional variance[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- variance forecasts are finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSvarBootstrapTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- bootstrap returns correct number of replications[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- confidence bands are ordered correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- median IRF has correct length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- bootstrap IRFs are finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- wild bootstrap also runs correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Blanchard-Quah bootstrap runs correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- toString contains key fields[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mButterworthFilterTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- lowpass output has same length as input[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- highpass output has same length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- bandpass output has same length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- effective order is double one-sided order[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- lowpass attenuates high frequencies[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- filtered values are finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- toString is readable[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mVarForecasterTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- forecast returns correct dimensions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- MSE matrices have correct dimensions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- forecast values are finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- MSE matrices are positive definite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- MSE increases with horizon[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- interval half widths are positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- stationary VAR forecasts converge toward mean[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- throws on non-positive horizon[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- unconditional variance is positive[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- forecaster can also be constructed directly from fit[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- toString produces readable table[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- toString produces readable output[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mChristianoFitzgeraldFilterTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- symmetric output has same length as input[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- asymmetric output has same length as input[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- filtered values are finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- symmetric and asymmetric are correlated[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- toString is readable[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSplineInterpolatorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- natural cubic interpolates at knots exactly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- pchip interpolates at knots exactly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- natural cubic is smooth between knots[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- pchip preserves monotonicity[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- returns NaN outside range when not extrapolating[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- extrapolates when requested[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- toString contains type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSvarModelTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Cholesky factor is lower triangular[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Cholesky factor satisfies P*P' = Sigma[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- structural IRFs have correct dimensions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- long run multiplier is finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- structural shocks have correct dimensions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- verifySigma passes for Cholesky impact matrix[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- cumulative IRF has correct dimensions[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mArimaDiagnosticsTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- standardized residuals have correct length[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- standardized residuals are approximately mean zero[0m[0m
@@ -493,42 +401,134 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- residual summary quartiles are ordered[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- report produces non-empty string[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- isSignificant returns correct value[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mGrangerCausalityTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- F statistic is positive[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- p-value is in [0,1][0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- y1 Granger-causes y2 in causal DGP[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- y2 does not Granger-cause y1 in causal DGP[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- testAll returns k x k matrix[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- diagonal of testAll is None[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- throws on same cause and effect[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- causalityMatrix produces readable output[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- toString contains key fields[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mGarchModelTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- requires at least one of p or q positive[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ARCH(1) is valid[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- GARCH(1,1) has correct nParams[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- conditional variances have correct length[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- conditional variances are positive[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- log likelihood is finite for valid parameters[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- GARCH(1,1) fit recovers approximate omega[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- GARCH(1,1) fit recovers approximate alpha[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- GARCH(1,1) fit recovers approximate beta[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- persistence is less than 1 for stationary GARCH[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- unconditional variance is positive[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- standardized residuals have approximately unit variance[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- AIC BIC AICc are finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- standard errors are positive[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- ARCH(1) fits correctly[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- toString produces readable output[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mSarimaForecasterTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- forecast returns correct horizon length[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- forecast variances are positive[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- forecast variances are non-decreasing[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- prediction intervals are correctly ordered[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- point forecasts are finite[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- seasonal random walk forecasts repeat last season[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- throws on series too short for differencing[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- toString produces readable table[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBaxterKingFilterTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- symmetric output has correct length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- asymmetric output has same length as input[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- weights sum to approximately zero[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- weights are symmetric[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- filtered values are finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- nDropped equals K[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- toString is readable[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mArimaModelTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- AR(1) state space has correct dimensions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- AR(1) transition matrix has correct structure[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ARIMA(1,1,0) state dimension is correct[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ARIMA(1,1,1) state dimension is correct[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- MA(1) state space has correct G vector structure[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- initial state has correct Pinf for ARIMA(1,1,0)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- initial state Pstar is positive for stationary AR component[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- throws on wrong number of AR coefficients[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- throws on non-positive sigma2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHistoricalDecompositionTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- contributions have correct dimensions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- contributions are finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- variance shares are in [0, 1][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- variance shares sum to 1 for each series[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- total contribution has correct length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- toString contains variance shares[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHpFilterTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- trend has correct length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- cycle has correct length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- trend + cycle = original[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- lambda=0 gives trend = original[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- large lambda gives near-linear trend[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- cycle mean is near zero[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- variance ratio is positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- toString is readable[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCointegrationTestsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EG statistic is finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EG rejects null for cointegrated pair[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EG fails to reject for non-cointegrated pair[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EG recovers approximate beta[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EG residuals have correct length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EG throws on unequal length series[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EG toString contains key fields[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Johansen returns correct number of eigenvalues[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Johansen eigenvalues are in [0, 1][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Johansen trace statistics are positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Johansen Array convenience wrapper works[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Johansen throws on invalid regime[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Johansen toString is readable[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Johansen larger eigenvalue first[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mVarLagSelectionTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- returns criteria for all lags[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- selected lags are in valid range[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- BIC selects true lag for large sample[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- criteria values are finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- toString contains selected lags[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEtsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ETS(A,N,N) name is correct[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ETS(M,Ad,M) name is correct[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 15 admissible models for period=12[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 6 non-seasonal admissible models[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- state dimension ANN = 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- state dimension AAN = 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- state dimension ANA with period 12 = 13[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ANN fit returns finite log-likelihood[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- AAN fit returns finite log-likelihood[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- alpha is in (0,1)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- sigma2 is positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fitted values have correct length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- residuals have correct length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ANN with alpha=1 fitted values approximate naive forecast[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- forecast has correct length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- forecast intervals are ordered[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- forecast values are finite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- AutoEts selects a model[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- AutoEts returns multiple models[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- AutoEts best model has lowest AICc[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- AutoEts toString is readable[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- seasonal AutoEts fits seasonal model[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLyapunovSolverTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- solution satisfies P = F * P * F.t + Q[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- solution is symmetric[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- solution is positive definite[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- scalar case matches analytical solution[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- converges for near-unit-root process[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDifferencingTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- diff reduces length by d[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- diff d=1 computes first differences[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- diff d=2 computes second differences[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- undiff inverts diff d=1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- undiff inverts diff d=2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- diff d=0 is identity[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- seasonalDiff reduces length by s*D[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- seasonalDiff D=1 subtracts lag-s values[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- seasonalUndiff inverts seasonalDiff[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- seasonalUndiff inverts D=2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- diffCombined round-trips[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- diffCombined returns correct length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fracDiff weight pi_0 is 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fracDiff weights decay toward zero[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fracDiff weights are negative for k>=1 when 0<d<1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fracDiff MacKinnon-Davidson and Hosking give same weights[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fracDiff series has correct length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fracDiff d=0 gives identity[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fracDiff d=1 approximates integer differencing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fracDiff result toString is readable[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Hosking toString shows method name[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAutoCorrelationTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ACF returns correct number of lags[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ACF at lag 1 is approximately phi for AR(1)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ACF decays geometrically for AR(1)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ACF cuts off after lag 1 for MA(1)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ACF of white noise is near zero at all lags[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ACF values are in [-1, 1][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- ACF throws on maxLag >= series length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- PACF returns correct number of lags[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- PACF at lag 1 equals ACF at lag 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- PACF cuts off after lag 1 for AR(1)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- PACF approximately equals phi at lag 1 for AR(1)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- PACF values are in [-1, 1][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- PACF of white noise is near zero at all lags[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- confidence bound decreases with sample size[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- confidence bound is positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- significant ACF lags include lag 1 for MA(1)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- significant PACF lags include lag 1 for AR(1)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- suggestOrders suggests AR for AR(1) process[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- suggestOrders suggests MA for MA(1) process[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- suggestOrders returns white noise for iid series[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- OrderSuggestion toString is readable[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSarimaEstimatorTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- SARIMA(1,0,0)(1,0,0)_4 CSS fit is finite[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- SARIMA(1,0,0)(1,0,0)_4 MLE fit recovers approximate phi[0m[0m
@@ -538,7 +538,7 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- standard errors are positive for MLE fit[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- seasonal differencing reduces series length correctly[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- toString produces readable output[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 12 seconds, 720 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 9 seconds, 332 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 452[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 44, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 452, failed 0, canceled 0, ignored 0, pending 0[0m[0m
